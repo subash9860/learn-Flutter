@@ -8,6 +8,9 @@
 .buildlog/
 .history
 .svn/
+*.lock
+*.yaml
+*.iml
 
 # IntelliJ related
 *.iml
@@ -41,6 +44,12 @@ app.*.symbols
 app.*.map.json
 
 # Android Studio will place build artifacts here
-/android/app/debug
-/android/app/profile
-/android/app/release
+/android
+/ios
+/linux
+/test
+/web
+
+#added by subash
+*.metadata
+*.gitignore
